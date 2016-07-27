@@ -1,7 +1,7 @@
-/// <reference path="monad.ts" />
+import { Monad, Functor, Eq, eq } from './monad'
 
-module TsMonad {
-    'use strict';
+
+
 
     /**
      * @name MaybeType
@@ -280,4 +280,4 @@ module TsMonad {
             return this.type === MaybeType.Just ? this.value : defaultValue;
         }
     }
-}
+

@@ -1,5 +1,5 @@
-module TsMonad {
-    'use strict';
+
+
 
     /**
      * @name eq
@@ -138,4 +138,4 @@ module TsMonad {
         mzero: Monad<T>;
         mplus(t: Monad<T>): Monad<T>;
     }
-}
+
